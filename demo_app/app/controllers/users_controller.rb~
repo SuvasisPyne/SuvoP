@@ -1,0 +1,11 @@
+class UsersController < ApplicationController
+  def new
+  
+  end
+
+  def index
+   @usrs = User.all 
+  end
+  def create
+  end
+end
